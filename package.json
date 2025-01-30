@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "@motionone/solid": "^10.16.4",
+    "@solidjs/router": "^0.15.3",
     "@tailwindcss/vite": "^4.0.0",
+    "aos": "^2.3.4",
     "axios": "^1.7.9",
     "qrcode": "^1.5.4",
     "qrcode.react": "^4.2.0",

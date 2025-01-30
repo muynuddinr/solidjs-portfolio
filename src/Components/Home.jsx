@@ -71,15 +71,15 @@ const Home = () => {
               </h1>
             </Motion>
 
-            <div class="text-2xl md:text-3xl text-gray-300 h-12 font-light">
+            <div class="text-2xl md:text-3xl text-gray-300 h-12 font-bold">
               <TypeWriter texts={['Full Stack Developer', 'UI/UX Enthusiast', 'Problem Solver']} />
             </div>
 
             <div class="flex justify-center gap-6">
               {[
-                { icon: FiGithub, link: "https://github.com", label: "GitHub" },
-                { icon: FiLinkedin, link: "https://linkedin.com", label: "LinkedIn" },
-                { icon: FiMail, link: "mailto:your@email.com", label: "Email" }
+                { icon: FiGithub, link: "https://github.com/muynuddinr", label: "GitHub" },
+                { icon: FiLinkedin, link: "https://www.linkedin.com/in/moinuddinr/", label: "LinkedIn" },
+                { icon: FiMail, link: "mailto:muynuddinr@gmail.com", label: "Email" }
               ].map(social => (
                 <Motion whileHover={{ y: -5, scale: 1.1 }}>
                   <a href={social.link} target="_blank" rel="noopener noreferrer" class="group">
