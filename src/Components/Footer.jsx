@@ -28,7 +28,7 @@ function Footer() {
 
         {/* Copyright */}
         <div class="text-center text-sm text-gray-500">
-          <p>© {currentYear} Your Name. All rights reserved.</p>
+          <p>© {currentYear} Moinuddin R. All rights reserved.</p>
         </div>
       </div>
     </footer>

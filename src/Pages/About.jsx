@@ -31,15 +31,23 @@ function About() {
         {/* Content Grid */}
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           {/* Profile Image */}
-          <div class="relative group" data-aos="fade-right">
-            <div class="absolute -inset-2 bg-gradient-to-r from-purple-500 to-blue-500 rounded-xl blur opacity-30 group-hover:opacity-70 transition duration-700"></div>
-            <div class="relative rounded-xl overflow-hidden">
+          <div 
+            class="relative group cursor-pointer w-[500px] h-[500px] mx-auto md:mx-0" 
+            data-aos="fade-right"
+          >
+            {/* Enhanced gradient background effect */}
+            <div class="absolute -inset-2 bg-gradient-to-r from-purple-600 via-blue-500 to-purple-600 rounded-xl blur-lg opacity-40 group-hover:opacity-75 group-hover:blur-xl transition duration-700"></div>
+            
+            {/* Image container with enhanced effects */}
+            <div class="relative h-full rounded-xl overflow-hidden shadow-2xl">
               <img
                 src={profile}
                 alt="Profile"
-                class="w-50 h-auto transform transition duration-700 hover:scale-110"
+                class="w-full h-full object-cover object-center transform transition-all duration-700 group-hover:scale-105 group-hover:brightness-110"
               />
-              <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+              
+              {/* Overlay effects */}
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           </div>
 
@@ -60,16 +68,19 @@ function About() {
             <div class="grid grid-cols-2 gap-8 mt-10">
               <div class="transform hover:scale-105 transition duration-300 p-4 rounded-lg bg-gradient-to-r from-purple-900/20 to-blue-900/20 backdrop-blur-sm">
                 <h4 class="text-purple-400 font-semibold mb-2">Location</h4>
-                <p class="text-gray-300">Your City, Country</p>
+                <p class="text-gray-300">Bengaluru, India</p>
               </div>
+
               <div class="transform hover:scale-105 transition duration-300 p-4 rounded-lg bg-gradient-to-r from-purple-900/20 to-blue-900/20 backdrop-blur-sm">
                 <h4 class="text-purple-400 font-semibold mb-2">Experience</h4>
-                <p class="text-gray-300">X+ Years</p>
+                <p class="text-gray-300">1+ Years</p>
               </div>
+
               <div class="transform hover:scale-105 transition duration-300 p-4 rounded-lg bg-gradient-to-r from-purple-900/20 to-blue-900/20 backdrop-blur-sm">
                 <h4 class="text-purple-400 font-semibold mb-2">Education</h4>
-                <p class="text-gray-300">Your Degree</p>
+                <p class="text-gray-300">Diploma in Computer Science and Engineering</p>
               </div>
+
               <div class="transform hover:scale-105 transition duration-300 p-4 rounded-lg bg-gradient-to-r from-purple-900/20 to-blue-900/20 backdrop-blur-sm">
                 <h4 class="text-purple-400 font-semibold mb-2">Interests</h4>
                 <p class="text-gray-300">Web Development, AI, etc.</p>

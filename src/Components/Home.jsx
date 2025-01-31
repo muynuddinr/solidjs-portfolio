@@ -66,7 +66,7 @@ const Home = () => {
             >
               <h1 class="text-5xl md:text-7xl font-bold mb-4">
                 Hi, I'm <span class="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-                  Muynuddin R
+                  Moinuddin R
                 </span>
               </h1>
             </Motion>
